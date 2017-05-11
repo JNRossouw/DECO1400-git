@@ -1,0 +1,70 @@
+    /* Dark Green: #3D5026
+     Forest Green: #86B429
+       Lime Green: #A4D31B
+            Brown: #805C36
+              Tan: #C7A882*/
+body{
+  /*background-image: url(images/arrow.png);*/
+  background-color: #3D5026;
+  width: 70%;
+  margin:auto;
+}
+blockquote{
+  width: 60%;
+  margin: auto;
+  text-align: justify;
+  text
+}
+header h1, h2{
+  margin: 1%;
+}
+header{
+    background-color: #C7A882;
+    margin: 2%;
+    border-radius: 10px;
+    border-color: #805C36;
+    height: auto;
+    border-style: double;
+    border-width: thick;
+}
+#links{
+    background-image: url(images/arrow_2.png);
+    background-size:100% 100%;
+    background-color: #C7A882;
+    margin: 2%;
+    border-radius: 10px;
+    border-color: #805C36;
+    height: auto;
+    border-style: double;
+    border-width: thick;
+}
+section{
+  padding:2%;
+  text-align: justify;
+  background-color: #C7A882;
+  border-radius: 10px;
+  border-color: #805C36;
+  border-style: double;
+  border-width: thick;
+
+}
+section p:first-of-type:first-letter{
+  font-size: 200%;
+}
+ul li{
+  display: inline;
+}
+header li a:hover{
+  color: #A4D31B;
+}
+header a{
+  color: #3D5026;
+  -webkit-transition: color 1s;
+}
+footer li a:hover{
+  color: #C7A882;
+}
+footer a{
+  color: #805C36;
+  -webkit-transition: color 1s;
+}
